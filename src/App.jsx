@@ -2,6 +2,7 @@
 import './App.css'
 import Counter from './Counter'
 import Team from './Team'
+import User from './User'
 
 
 function App() {
@@ -18,6 +19,8 @@ function App() {
     <>
      <Counter></Counter>
      <Team></Team>
+     <User></User>
+     
       <h1>Vite + React</h1>
       <button onClick={handleClick1}>First_Button</button>
       <button onClick={()=>alert('My name is React')}>First_Button_React</button>
